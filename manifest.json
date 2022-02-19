@@ -2,8 +2,11 @@
 {
   "name": "AltNav Browser",
   "short_name": "Altnav",
-  "start_url": "/",
-  "display": "fullscreen",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color":"#ffffff",
+  "theme_color": "#10f010",
+  "orientation": "portrait-primary",
   "icons": [{
     "src": "images/touch/homescreen48.png",
     "sizes": "48x48",
