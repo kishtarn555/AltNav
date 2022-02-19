@@ -7,9 +7,21 @@
   "background_color":"#ffffff",
   "theme_color": "#10f010",
   "orientation": "portrait-primary",
-  "icons": [{
-    "src": "images/touch/homescreen48.png",
-    "sizes": "48x48",
-    "type": "image/png"
-  }]
+  "icons": [
+    {
+      "src": "logos/48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "logos/72x72.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    },
+    {
+      "src": "logos/96x96.png",
+      "sizes": "72x72",
+      "type": "image/png"
+    }
+  ]
 }
