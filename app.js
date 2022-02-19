@@ -11,7 +11,7 @@ window.addEventListener('beforeinstallprompt', (e)=> {
 });
 function init() {
     btnInstall =document.getElementById('btnInstall');
-    
+    navigator.serviceWorker.register("/serviceWorker.js"); 
 
     btnInstall.addEventListener('click', (e)=> {
         deferredPrompt.prompt();
