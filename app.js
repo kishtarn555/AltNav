@@ -1,1 +1,1 @@
-alert("its alive")N
+alert("its alive");
