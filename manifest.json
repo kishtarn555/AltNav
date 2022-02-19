@@ -4,8 +4,8 @@
   "short_name": "Altnav",
   "start_url": "index.html",
   "display": "standalone",
-  "background_color":"#ffffff",
-  "theme_color": "#10f010",
+  "background_color":"#262e26",
+  "theme_color": "#086308",
   "orientation": "portrait-primary",
   "icons": [
     {
