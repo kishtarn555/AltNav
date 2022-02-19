@@ -1,7 +1,7 @@
 
 body {
     background-color: #101010;
-    display:inline;
+
     
     
 }
@@ -18,14 +18,11 @@ body {
     padding-top: 50px;
 }
 .textInfo {
-    
-    color:white;
+    color:white;   
+
 }
 
-.orgLinks {
-    margin-bottom: 150px;
-    
-}
+
 .adImg {
     width: 100%;
 }
@@ -33,12 +30,32 @@ body {
 .adSquare {
     background-color: #404040;
     padding: 15px;
+    color: #f0f0f0;
+    text-decoration: none;    
+}
+.adSquare:visited {
+    background-color: #404040;
+    padding: 15px;
+    color: #f0f0f0;
+    text-decoration: none;    
 }
 .adRow {
     margin-bottom: 50px;
 }
 
+
 .orgLinks {
+    margin-bottom: 150px;    
+    color: #f0f0f0;
+    font-size: xx-large;
+    background-color: #404040;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.orgLinksGreyed {
+    margin-bottom: 150px;    
+    color: #a0a0a0;
     font-size: xx-large;
     background-color: #404040;
     margin-left:8px;
@@ -47,6 +64,11 @@ body {
 
 .orgSquare {
     background-color: #c3e059;
+    color: #f0f0f0;
+    text-decoration: none;   
     
     padding: 15px;
+}
+.votebtn {
+    height: 100px;
 }
