@@ -2,14 +2,11 @@
 {
   "name": "AltNav Browser",
   "short_name": "Altnav",
-  "start_url": "",
+  "start_url": "/",
   "display": "fullscreen",
   "icons": [{
     "src": "images/touch/homescreen48.png",
     "sizes": "48x48",
     "type": "image/png"
-  }],
-  "related_applications": [{
-    "platform": "web"
   }]
 }
