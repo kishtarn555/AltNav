@@ -2,6 +2,7 @@
 {
   "name": "AltNav Browser",
   "short_name": "Altnav",
+  "description": "Navegador altruista que dona dinero recolectado por anuncios a A.C.",
   "start_url": "/index.html",
   "display": "standalone",
   "background_color":"#262e26",
