@@ -6,6 +6,8 @@
     background-color: #007000;
     padding-top: 7px;
     padding-bottom: 7px;
+    height: 100px;
+    vertical-align: middle;
 }
 
 .buttonImage {
@@ -20,4 +22,9 @@
 
 body {
     padding: 0px;
+}
+
+
+.fullicon {
+    width: fit-content;
 }
