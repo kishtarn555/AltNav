@@ -1,0 +1,36 @@
+
+body {
+    background-color: #101010;
+    display:inline;
+    
+    
+}
+.icon {
+    width: 100%;
+}
+.navBar {
+    margin-top: 40px;
+    width: 100%;
+}
+.logotype {
+    padding-top: 50px;
+}
+.textInfo {
+    
+    color:white;
+}
+
+.orgLinks {
+    margin-bottom: 150px;
+}
+.adImg {
+    width: 100%;
+}
+
+.adSquare {
+    background-color: #404040;
+    padding: 15px;
+}
+.adRow {
+    margin-bottom: 50px;
+}
