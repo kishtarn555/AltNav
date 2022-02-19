@@ -11,6 +11,8 @@ body {
 .navBar {
     margin-top: 40px;
     width: 100%;
+    
+    margin-bottom:15px;
 }
 .logotype {
     padding-top: 50px;
@@ -22,6 +24,7 @@ body {
 
 .orgLinks {
     margin-bottom: 150px;
+    
 }
 .adImg {
     width: 100%;
@@ -33,4 +36,17 @@ body {
 }
 .adRow {
     margin-bottom: 50px;
+}
+
+.orgLinks {
+    font-size: xx-large;
+    background-color: #404040;
+    margin-left:8px;
+    margin-right:8px;
+}
+
+.orgSquare {
+    background-color: #c3e059;
+    
+    padding: 15px;
 }

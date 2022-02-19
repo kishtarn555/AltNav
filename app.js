@@ -11,11 +11,14 @@ window.addEventListener('beforeinstallprompt', (e)=> {
     btnInstall.style.display="block";
 });
 function init() {
-    btnInstall =document.getElementById('btnInstall');
+    
     urlBar=document.getElementById('urlBar');
+    const urlParams = new URLSearchParams( window.location.search);
+    
+    btnInstall =document.getElementById('btnInstall');
     iframeBody=document.getElementById('iframeBody');
     navigator.serviceWorker.register("/serviceWorker.js"); 
-
+    
     btnInstall.addEventListener('click', (e)=> {
         deferredPrompt.prompt();
         deferredPrompt.userChoice.then((result)=> {
@@ -23,6 +26,11 @@ function init() {
         })
     })
     urlBar.addEventListener('keydown', search)
+    let q =urlParams.get('q');
+    if (q) {
+        urlBar.value=q;
+        search({key:'Enter'});
+    }
 }
 
 
