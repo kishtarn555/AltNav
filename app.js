@@ -22,9 +22,17 @@ function init() {
             deferredPrompt=null;
         })
     })
+    urlBar.addEventListener('keydown', search)
 }
 
 
 function changeUrl() {
     urlBar.value = iframeBody.contentWindow.location.href;
+}
+
+function search(ev) {
+    console.log
+    if (ev.key=='Enter') {
+        iframeBody.src=urlBar.value;
+    }
 }
