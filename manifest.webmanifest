@@ -8,22 +8,22 @@
   "theme_color": "#086308",
   "icons": [
     {
-      "src": "logos/48x48.png",
+      "src": "logo/48x48.png",
       "sizes": "48x48",
       "type": "image/png"
     },
     {
-      "src": "logos/72x72.png",
+      "src": "logo/72x72.png",
       "sizes": "72x72",
       "type": "image/png"
     },
     {
-      "src": "logos/96x96.png",
+      "src": "logo/96x96.png",
       "sizes": "96x96",
       "type": "image/png"
     },
     {
-      "src": "logos/AltNav512.png",
+      "src": "logo/AltNav512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
