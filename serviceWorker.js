@@ -4,7 +4,7 @@ const assets = [
 
 self.addEventListener("install", installEvent=> {
   installEvent.waitUntil(
-    caches.open(staticAltNav).then(cache> {
+    caches.open(staticAltNav).then((cache)=> {
       cache.addAll(assets)
     })
    )
