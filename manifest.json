@@ -2,7 +2,7 @@
 {
   "name": "AltNav Browser",
   "short_name": "Altnav",
-  "start_url": "index.html",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color":"#262e26",
   "theme_color": "#086308",
