@@ -1,1 +1,23 @@
 
+.urlbar {
+    width:100%
+}
+.navigationbar {
+    background-color: #007000;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.buttonImage {
+    background-image: url("icons/dot3.png");
+}
+
+.webContent {
+    width: 100%;
+    height: 720px;
+    margin:0px;
+}
+
+body {
+    padding: 0px;
+}
